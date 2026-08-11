@@ -1,0 +1,21 @@
+{
+  "notice": "示例配置。所有任务、ID、时间和提示词均为虚构。",
+  "jobs": [
+    {
+      "id": "<CRON_JOB_ID_1>",
+      "name": "晨间任务整理示例",
+      "schedule": "0 8 * * *",
+      "timezone": "Asia/Shanghai",
+      "enabled": false,
+      "command": "python scripts/dida_undone.py"
+    },
+    {
+      "id": "<CRON_JOB_ID_2>",
+      "name": "周复盘草稿示例",
+      "schedule": "0 9 * * 6",
+      "timezone": "Asia/Shanghai",
+      "enabled": false,
+      "command": "python scripts/notion_bridge.py weekly --date <DATE> --dry-run"
+    }
+  ]
+}
