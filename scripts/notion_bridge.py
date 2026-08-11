@@ -6,6 +6,13 @@ from __future__ import annotations
 import argparse
 import os
 import sys
+from pathlib import Path
+
+# Some bundled or isolated Python runtimes do not add the executed script's
+# directory to sys.path. Make the sibling module import deterministic.
+SCRIPT_DIR = Path(__file__).resolve().parent
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
 
 from notion_api import create_page_with_markdown
 
