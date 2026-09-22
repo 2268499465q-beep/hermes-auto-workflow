@@ -2,7 +2,7 @@
 
 这是一套经过脱敏重构的个人自动化工作流示例。它把定时触发、滴答清单任务读取、AI Agent 处理和 Notion 沉淀串成一个可复用闭环。
 
-[完整 GitHub 作品集合](https://github.com/2268499465q-beep/2268499465q-beep) · [飞书作品集](https://ea6e8con64.feishu.cn/wiki/UrbzwYdsbi2UYGkBkcEczsYcn1d)
+[飞书项目案例](https://scnjekzqbjj6.feishu.cn/wiki/R0hCwfLi0iOgGvkufCyc0XTtnvg) · [飞书作品集](https://scnjekzqbjj6.feishu.cn/wiki/D4dRwZIBWi0LuaksoD4cDcTTnSg)
 
 > 公开说明：本仓库源于真实运行过的个人工作流。代码、配置和输出均为安全重构版本，不包含生产 token、页面 ID、项目 ID、原始任务、运行日志或个人行为记录。`examples/` 中的数据均为合成示例。
 
